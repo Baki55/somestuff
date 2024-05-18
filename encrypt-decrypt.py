@@ -1,8 +1,10 @@
 import os
 from hashlib import sha256
 
+#change line 8 and line 11 with your values and then run the program to encrypt or decrypt all files in a directory
+
 #directory PATH of the dir containing files to encrypt/decrypt
-directory = '../toencrypt/'
+directory = 'PATH/TO/THE/DIR/YOU/WANT/TO/ENCRYPT/OR/DECRYPT'
 
 #key for the encryption/decryption files
 key = 'YOUR KEY'
